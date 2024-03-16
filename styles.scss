@@ -35,11 +35,11 @@ body {
 }
 
 .container {
-  max-width: 60rem;
+  max-width: 68rem;
   margin: 0 auto 2rem;
   background-color: var(--color-bg);
 
-  @media (max-width: 400px) {
+  @media (max-width: 450px) {
     padding: 0 2rem;
   }
 }
@@ -48,6 +48,9 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
 .logo {
   padding: 4rem 0;
   font-weight: bold;
@@ -66,6 +69,10 @@ body {
   background-color: var(--color-card);
   border-radius: var(--default-radius);
   padding: 0.5rem 0.5rem 0.5rem 2rem;
+  @media (max-width: 375px) {
+    gap: 0;
+    padding-left: 1rem;
+  }
 }
 
 .choices {
@@ -76,7 +83,7 @@ body {
   gap: 1.5rem;
 }
 
-.input {
+.searchInput {
   padding: 1rem 1rem 1rem 2.4rem;
   border: none;
   font-size: 1.6rem;
@@ -88,6 +95,10 @@ body {
   background-repeat: no-repeat;
   outline: none;
   color: var(--color-white);
+  @media (max-width: 375px) {
+    padding-right: 0;
+    font-size: 1.2rem;
+  }
 }
 
 .button {
@@ -112,6 +123,9 @@ body {
   justify-content: space-between;
   gap: 2rem;
   margin-top: var(--margin-after-form);
+  @media (max-width: 375px) {
+    justify-content: center;
+  }
 }
 
 .card {
@@ -119,13 +133,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 30%;
   overflow: hidden;
   gap: 1rem;
-
-  @media (max-width: 400px) {
-    flex-basis: 45%;
-  }
 }
 
 .img {
@@ -183,4 +192,11 @@ body {
 .d-flex {
   display: flex;
   flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+a {
+  color: var(--color-white);
 }
