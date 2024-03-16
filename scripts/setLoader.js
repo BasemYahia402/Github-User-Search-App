@@ -1,4 +1,4 @@
-import { loaderElement } from "./Element";
+import { loaderElement } from "./elements";
 import { setSearchResult } from "./setSearchResult";
 
 export const setLoader = (loaderState) => {
