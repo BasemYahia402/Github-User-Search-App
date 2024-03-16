@@ -1,5 +1,5 @@
-import { cardsElement } from "./Element.js";
-import { fetchUserDetails } from "./fetchUserDetails.js";
+import { cardsElement } from "./elements.js";
+import { fetchUserDetails } from "./fetechUserDetails.js";
 
 const setSearchResult = async (data) => {
   let result = "";
