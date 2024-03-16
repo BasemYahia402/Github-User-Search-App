@@ -1,4 +1,4 @@
-import { messageElement } from "./Element";
+import { messageElement } from "./elements";
 
 export const getMeessage = () => {
   return messageElement.innerText;
