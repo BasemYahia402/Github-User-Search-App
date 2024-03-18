@@ -1,6 +1,6 @@
 export const fetchUserDetails = async (username) => {
   try {
-    const accessToken = "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";
+    const accessToken = "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";
     const response = await fetch(`https://api.github.com/users/${username}`, {
       headers: {
         Authorization: `token ${accessToken}`,
